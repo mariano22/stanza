@@ -14,6 +14,7 @@ jobs:
       - name: Run Stanza Tests
         run: |
           # set up environment
+          echo "Runner demo 1"
           echo "Setting up environment..."
           bash
           . $CONDA_PREFIX/etc/profile.d/conda.sh
